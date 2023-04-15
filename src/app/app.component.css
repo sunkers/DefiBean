@@ -54,11 +54,9 @@
 }
 
 .background-container {
-  background: rgb(192, 164, 142);
-  background: linear-gradient(
-    180deg,
-    var(--border-bottom) 0%,
-    var(--background-color-app) 50%,
-    var(--border-bottom) 100%
-  );
+  /* background: rgb(192, 164, 142); */
+  background-image: url("./../assets/dalmatianbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

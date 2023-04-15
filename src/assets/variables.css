@@ -7,6 +7,7 @@
   --background-color: #f4ede7;
   --background-color-app: #f4ede75b;
   --text-color: #2b1e16;
+  --gradient-dark-theme: #f4ede7;
 }
 
 /* Thème sombre */
@@ -16,6 +17,7 @@
   --accent-color: #4b3021;
   --border-bottom: #c0a48e92;
   --background-color: #2a2a2a;
-  --background-color-app: #2a2a2ac1;
+  --background-color-app: #2a2a2a95;
   --text-color: #e1d8cd;
+  --gradient-dark-theme: #7f7267;
 }

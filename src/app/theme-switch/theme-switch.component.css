@@ -1,13 +1,69 @@
-mat-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: medium;
-  color: var(--text-color);
-  opacity: 80%;
-  transition: transform 0.3s ease; /* Ajout d'une transition pour l'effet de grossissement et de soulèvement */
+.switch input {
+  display: none;
 }
 
-mat-icon:hover {
-  transform: translateY(-3px) translateX(-2px) scale(1.1); /* Déplacement vers le haut et agrandissement lors du survol */
+.switch {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  background: #4d4d4d;
+  border-radius: 100px;
+  padding: 0 2px;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 15px;
+  background: white;
+  border-radius: 100px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+  z-index: 1000;
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.sun {
+  font-size: small;
+  right: 2px;
+  opacity: 1;
+}
+
+.moon {
+  font-size: small;
+  left: 2px;
+  opacity: 0;
+}
+
+.switch:hover .slider,
+.switch:focus .slider {
+  border: 1px solid #4d4d4d;
+  box-shadow: 0 0 2px 3px var(--primary-color);
+}
+
+.switch:active .slider {
+  box-shadow: 0 0 5px 5px #86d46b;
+}
+
+.switch input:checked + .slider {
+  transform: translateX(26px);
+}
+
+.switch input:checked ~ .moon {
+  opacity: 1;
+}
+
+.switch input:checked ~ .sun {
+  opacity: 0;
 }

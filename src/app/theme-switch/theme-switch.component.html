@@ -1,1 +1,7 @@
-<mat-icon (click)="toggleTheme()">brightness_medium</mat-icon>
+<!-- <mat-icon (click)="toggleTheme()">brightness_medium</mat-icon> -->
+<label tabindex="0" class="switch">
+  <input type="checkbox" (click)="toggleTheme()" />
+  <span class="slider"></span>
+  <span class="icon sun">🌞</span>
+  <span class="icon moon">🌜</span>
+</label>
