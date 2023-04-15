@@ -1,8 +1,14 @@
 /* Styles pour le conteneur principal des pages */
-.page-container {
+.background-container {
   display: flex;
   flex-direction: column;
   height: 80%;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 /* Styles pour le contenu des pages et la barre de défilement horizontale */
@@ -37,4 +43,22 @@
 ::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
   border-radius: 10px;
+}
+.page-container {
+  background-image: url("./../assets/background_transparent.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Hauteur optionnelle pour donner de l'espace à l'image */
+  /* height: 100%; */
+}
+
+.background-container {
+  background: rgb(192, 164, 142);
+  background: linear-gradient(
+    180deg,
+    var(--border-bottom) 0%,
+    var(--background-color-app) 50%,
+    var(--border-bottom) 100%
+  );
 }
