@@ -7,9 +7,39 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   border-radius: 30px;
   background: var(--background-color);
-  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px var(--background-color);
+  box-shadow: 0px 2px 4px #bebebe, 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 10px;
+  overflow: hidden; /* Cache tout contenu qui déborde */
+}
+
+.img1,
+.img2 {
+  max-width: 100%; /* Ajuste la largeur des images pour s'adapter à la largeur de la card */
+  max-height: 45%; /* Ajuste la hauteur des images pour qu'elles ne débordent pas */
+  object-fit: cover; /* Garde les proportions des images */
+}
+
+.img1 {
+  align-self: flex-end;
+}
+
+.img2 {
+  align-self: flex-start;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  width: 100%;
+  max-width: 30%; /* Limite la largeur du titre pour forcer le texte à s'enrouler sur deux lignes */
+  white-space: pre-wrap; /* S'assure que les sauts de ligne dans le titre sont respectés */
 }
