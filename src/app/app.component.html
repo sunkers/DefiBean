@@ -3,12 +3,11 @@
   <div class="page-container">
     <div class="content" #content (wheel)="onWheel($event)">
       <div class="horizontal-scroll">
-        <div class="page" id="about">Lorem ipsum...</div>
-        <div class="page">Lorem ipsum...</div>
-        <div class="page">Lorem ipsum...</div>
-        <div class="page">Lorem ipsum...</div>
-        <div class="page">Lorem ipsum...</div>
-        <div class="page">Lorem ipsum...</div>
+        <div class="page" id="home"><app-home></app-home></div>
+        <div class="page" id="about"><app-about></app-about></div>
+        <div class="page" id="faq"><app-faq></app-faq></div>
+        <div class="page" id="blog"><app-blog></app-blog></div>
+        <div class="page" id="contact"><app-contact></app-contact></div>
       </div>
     </div>
   </div>
