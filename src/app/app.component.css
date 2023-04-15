@@ -1,0 +1,40 @@
+/* Styles pour le conteneur principal des pages */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+/* Styles pour le contenu des pages et la barre de défilement horizontale */
+.content {
+  flex: 1;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+}
+
+/* Styles pour le conteneur de défilement horizontal */
+.horizontal-scroll {
+  display: inline-flex;
+  height: 100%;
+}
+
+/* Styles pour chaque page individuelle */
+.page {
+  min-width: 100vw;
+  min-height: 100%;
+  padding: 2rem;
+  white-space: normal;
+}
+
+/* Styles pour personnaliser la barre de défilement */
+::-webkit-scrollbar {
+  height: 5px;
+  background-color: var(--background-color-app);
+}
+
+/* Styles pour le pouce de la barre de défilement */
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}

@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@import "assets/variables.css";
+
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Police du corps */
+body,
+html {
+  font-family: "Manrope", sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Police des titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Thème clair */
+:root[data-theme="light"] {
+  --primary-color: #c0a48e;
+  /* ... autres variables CSS pour le thème clair */
+}
+
+/* Thème sombre */
+:root[data-theme="dark"] {
+  --primary-color: #c0a48e;
+  /* ... autres variables CSS pour le thème sombre */
+}
+
+/* Utilisation des variables CSS */
+body {
+  background-color: var(--background-color-app);
+  color: var(--text-color);
+  /* ... autres styles utilisant les variables définies */
+}

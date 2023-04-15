@@ -1,0 +1,33 @@
+<header>
+  <div class="left-container">
+    <div class="logo">
+      <img
+        class="icon"
+        src="./../../assets/logo_transparent_bg.png"
+        alt="Logo"
+      />
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li>
+          <a
+            routerLink="/"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Home</a
+          >
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="right-container">
+    <button class="connect-wallet">Connect Wallet</button>
+    <div class="theme-switch">
+      <app-theme-switch></app-theme-switch>
+    </div>
+  </div>
+</header>

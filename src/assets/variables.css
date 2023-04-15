@@ -1,0 +1,21 @@
+/* Thème clair */
+:root[data-theme="light"] {
+  --primary-color: #c0a48e;
+  --secondary-color: #529b5e;
+  --accent-color: #4b3021;
+  --border-bottom: #c0a48e92;
+  --background-color: #f4ede7;
+  --background-color-app: #f4ede75b;
+  --text-color: #2b1e16;
+}
+
+/* Thème sombre */
+:root[data-theme="dark"] {
+  --primary-color: #c0a48e;
+  --secondary-color: #529b5e;
+  --accent-color: #4b3021;
+  --border-bottom: #c0a48e92;
+  --background-color: #2a2a2a;
+  --background-color-app: #2a2a2aec;
+  --text-color: #e1d8cd;
+}

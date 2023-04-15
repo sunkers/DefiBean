@@ -1,0 +1,67 @@
+/* ========== FOOTER ========== */
+
+/* Container du footer */
+.footer-container {
+  margin-top: auto;
+  height: 10%;
+}
+
+/* Styles communs pour tous les éléments du footer */
+footer * {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Configuration et styles de base du footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.2rem 1rem 0.2rem 1rem; */
+  background-color: var(--background-color);
+  height: 100%;
+  font-size: small;
+}
+
+/* Styles pour le menu déroulant de sélection de langue */
+.language-dropdown select {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-left: calc(50px - 00.5rem);
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 0.5rem;
+}
+
+/* Styles pour les liens du footer */
+.footer-links a {
+  margin-right: 5rem;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.footer-links a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+  box-shadow: inset 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.1s ease;
+  border-bottom: 2px solid var(--border-bottom);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+/* Espacement pour les icônes de réseaux sociaux */
+.social-icons a {
+  margin-right: 1rem;
+}
+
+.social-icon svg path {
+  fill: var(--text-color);
+}
