@@ -10,9 +10,16 @@ export class AppComponent implements AfterViewInit {
   @ViewChild('content', { static: false }) content!: ElementRef;
   private pages!: NodeListOf<Element>;
   private currentPageIndex = 0;
+  backgroundUrl = 'assets/dalmatianbg.png';
 
   constructor(private themeService: ThemeService) {
     this.themeService.setTheme('light'); // Définir 'dark' pour un thème sombre par défaut
+  }
+
+  onToggleTheme(darkMode: boolean) {
+    this.backgroundUrl = darkMode
+      ? 'assets/background_dark.png'
+      : 'assets/dalmatianbg.png';
   }
 
   ngAfterViewInit() {
