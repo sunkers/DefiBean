@@ -19,6 +19,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { ChartModule } from 'primeng/chart';
+import { CardHomeComponent } from './card-home/card-home.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ChartModule } from 'primeng/chart';
     FaqComponent,
     BlogComponent,
     ContactComponent,
+    CardHomeComponent,
   ],
   imports: [
     BrowserModule,
