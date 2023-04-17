@@ -23,6 +23,7 @@ header * {
 header {
   background-image: url(./../../../assets/header_bg.png);
   background-size: cover;
+  background-position: 60%;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -110,7 +111,7 @@ header > div.left-container > nav {
 .theme-switch {
   border: none;
   cursor: pointer;
-  margin-right: 30px;
+  margin-right: 3vw;
 }
 
 /* Styles pour le bouton "Connect Wallet" */

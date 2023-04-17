@@ -35,13 +35,13 @@
 }
 
 .sun {
-  font-size: small;
+  /* font-size: small; */
   right: 2px;
   opacity: 1;
 }
 
 .moon {
-  font-size: small;
+  /* font-size: small; */
   left: 2px;
   opacity: 0;
 }
