@@ -22,6 +22,7 @@ import { ChartModule } from 'primeng/chart';
 import { CardHomeComponent } from './features/home/card-home/card-home.component';
 import { Page2Component } from './features/home/page2/page2.component';
 import { Page3Component } from './features/home/page3/page3.component';
+import { AboutModule } from './features/about/about.module';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { Page3Component } from './features/home/page3/page3.component';
     HttpClientModule,
     AngularSvgIconModule.forRoot(),
     MatIconModule,
+    // AboutModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
