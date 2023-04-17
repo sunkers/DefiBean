@@ -4,24 +4,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { ThemeSwitchComponent } from './theme-switch/theme-switch.component';
+import { HeaderComponent } from './core/header/header.component';
+import { FooterComponent } from './core/footer/footer.component';
+import { ThemeSwitchComponent } from './core/theme-switch/theme-switch.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 
 import { MatIconModule } from '@angular/material/icon';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { FaqComponent } from './faq/faq.component';
-import { BlogComponent } from './blog/blog.component';
-import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './features/home/home.component';
+import { AboutComponent } from './features/about/about.component';
+import { FaqComponent } from './features/faq/faq.component';
+import { BlogComponent } from './features/blog/blog.component';
+import { ContactComponent } from './features/contact/contact.component';
 
 import { ChartModule } from 'primeng/chart';
-import { CardHomeComponent } from './card-home/card-home.component';
-import { Page2Component } from './home/page2/page2.component';
-import { Page3Component } from './home/page3/page3.component';
+import { CardHomeComponent } from './features/home/card-home/card-home.component';
+import { Page2Component } from './features/home/page2/page2.component';
+import { Page3Component } from './features/home/page3/page3.component';
 
 @NgModule({
   declarations: [
