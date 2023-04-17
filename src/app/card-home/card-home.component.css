@@ -1,8 +1,8 @@
 .flip-card {
   background-color: transparent;
   transform: translate(40%);
-  width: 25rem;
-  height: 254px;
+  width: 60vh;
+  height: 40vh;
   perspective: 1000px;
   font-family: sans-serif;
 }

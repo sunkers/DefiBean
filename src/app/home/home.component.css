@@ -31,8 +31,8 @@
 .col-1 {
   align-items: flex-start;
   margin-left: 5%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .col-2 {
@@ -47,7 +47,7 @@
 }
 
 .title {
-  font-size: 3em;
+  font-size: 8vh;
   margin-left: 10px;
   width: 100%;
   max-width: 30%; /* Limite la largeur du titre pour forcer le texte à s'enrouler sur deux lignes */
@@ -60,15 +60,15 @@
 }
 
 .logo {
-  width: 4rem;
-  height: 4rem;
+  width: 8vh;
+  height: 8vh;
   object-fit: cover;
   border-radius: 30px;
 }
 
 h2 {
   /* text-align: center; */
-  font-size: 1.5em;
+  font-size: 4vh;
   width: 100%;
   max-width: 70%; /* Limite la largeur du titre pour forcer le texte à s'enrouler sur deux lignes */
   white-space: pre-wrap; /* S'assure que les sauts de ligne dans le titre sont respectés */
@@ -76,7 +76,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 3vh;
   font-weight: normal;
   max-width: 75%;
 }
@@ -90,8 +90,8 @@ button {
   text-transform: uppercase;
   font-style: normal;
   font-weight: bold;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5vh;
+  padding-right: 5vh;
   color: var(--background-color);
   -webkit-clip-path: polygon(
     0 0,
@@ -113,8 +113,8 @@ button {
     15px 100%,
     0 100%
   );
-  height: 40px;
-  font-size: 0.7rem;
+  height: 6vh;
+  font-size: 1.5vh;
   line-height: 14px;
   letter-spacing: 1.2px;
   transition: 0.2s 0.1s;
@@ -130,6 +130,6 @@ button {
 button:hover {
   cursor: pointer;
   transition: all 0.3s ease-in;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 7vh;
+  padding-left: 7vh;
 }

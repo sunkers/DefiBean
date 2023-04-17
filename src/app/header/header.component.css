@@ -7,9 +7,9 @@ header * {
 
 /* Styles pour l'icône de logo */
 .icon {
-  height: 80%;
+  height: 100%;
   max-height: 80%;
-  margin: 5px 5px 5px 50px;
+  margin: 0px 50px 0px 50px;
 }
 
 /* Styles pour le conteneur du logo */
@@ -55,8 +55,6 @@ header > div.left-container > nav {
 
 /* Styles pour l'image du logo */
 .logo img {
-  margin-right: 20px;
-  height: 50px;
   object-fit: cover;
 }
 
@@ -78,14 +76,14 @@ header > div.left-container > nav {
 
 /* Styles pour les liens de navigation */
 .nav-links a {
-  font-size: small;
+  font-size: 2vh;
   display: flex;
   align-items: center;
   height: 100%;
   text-decoration: none;
   color: var(--text-color);
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 3.5vh;
+  padding-left: 3.5vh;
   position: relative;
 }
 
@@ -118,11 +116,11 @@ header > div.left-container > nav {
 /* Styles pour le bouton "Connect Wallet" */
 .connect-wallet,
 .connect-wallet:focus {
-  font-size: small;
+  font-size: 1rem;
   cursor: pointer;
-  padding: 5px 10px;
-  margin-top: 5px;
-  margin-right: 30px;
+  padding: 1vh 2vh;
+  margin-top: 4px;
+  margin-right: 3vh;
   border-radius: 0.7rem;
   background-image: linear-gradient(var(--primary-color), var(--border-bottom));
   border: 2px solid rgb(50, 50, 50);

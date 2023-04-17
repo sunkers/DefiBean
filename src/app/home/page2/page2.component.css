@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-left: 5%;
+  margin-left: 20%;
   align-items: flex-end;
 }
 
@@ -74,7 +74,7 @@
 
 h2 {
   /* text-align: center; */
-  font-size: 2em;
+  font-size: 4vh;
   width: 100%;
   /* max-width: 70%; Limite la largeur du titre pour forcer le texte à s'enrouler sur deux lignes */
   white-space: pre-wrap; /* S'assure que les sauts de ligne dans le titre sont respectés */
@@ -83,7 +83,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 2.5vh;
   font-weight: normal;
   /* max-width: 75%; */
   text-align: right;
@@ -98,8 +98,8 @@ button {
   text-transform: uppercase;
   font-style: normal;
   font-weight: bold;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5vh;
+  padding-right: 5vh;
   color: var(--background-color);
   -webkit-clip-path: polygon(
     0 0,
@@ -121,8 +121,8 @@ button {
     15px 100%,
     0 100%
   );
-  height: 40px;
-  font-size: 0.7rem;
+  height: 6vh;
+  font-size: 1.5vh;
   line-height: 14px;
   letter-spacing: 1.2px;
   transition: 0.2s 0.1s;
@@ -152,15 +152,16 @@ button {
   border-radius: 10px;
 }
 
+
 button:hover {
   cursor: pointer;
   transition: all 0.3s ease-in;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 7vh;
+  padding-left: 7vh;
 }
 
 .cards {
-  font-size: 1em;
+  font-size: 4vh;
   color: var(--text-color);
   box-sizing: border-box;
   width: 100%;
